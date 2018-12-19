@@ -29,11 +29,9 @@ class ToolBarWidget(AnchorLayout):
 
         #The settings for each button to be added
         file_butt = Button(text="File")
-        option_butt = Button(text="Options")
         exit_butt = Button(text="Exit", on_press=self.cls_func)
 
         self.add_widget(exit_butt)
-        self.add_widget(option_butt)
         self.add_widget(file_butt)
 
     def cls_func(self, obj):

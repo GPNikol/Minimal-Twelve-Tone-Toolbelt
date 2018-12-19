@@ -50,9 +50,8 @@ class RootWidget(FloatLayout):
         #Binding functions to settings drop down menu
         file_dropdown = DropDown()
         btn_names = ['Save', 
-                     'Save & Print',
-                     'Properties']
-        for indx in range(3):
+                     'Save & Print']
+        for indx in range(2):
             btn = Button(text=f'{btn_names[indx]}', 
                         size_hint=(None, None), 
                         width=self.width, height=40)
@@ -101,8 +100,6 @@ class RootWidget(FloatLayout):
 
             #Print the PNG file with basic windows command
             win32api.ShellExecute(0, "print", date, None, ".", 0)
-        elif item.lower() == 'properties':
-            print("Dropdown funcs: PROPERTIES")
 
     def _convert_prime_row(self, row):
         '''
