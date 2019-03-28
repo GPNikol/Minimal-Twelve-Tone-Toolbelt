@@ -6,6 +6,14 @@ This script provides a GUI interface for a Twelve Tone Matrix.
 
 It has been adapted from a previous - terminal based application
 to work as a Python Kivy Application.
+
+To run KIVY files effectively the following must be run in the command line:
+pip --upgrade pip wheel setuptools
+pip install docutils pygments pypiwin32 kivy.deps.sdl2 kivy.deps.glew
+pip install kivy.deps.gstreamer
+pip install kivy.deps.angle
+pip install kivy
+
 '''
 import kivy
 import kivy.uix.settings
