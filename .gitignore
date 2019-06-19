@@ -1,0 +1,7 @@
+*.exe
+*.pyc
+*.log
+*.pot
+__pycache__/
+MyHiddenImports/
+matrix.ico
