@@ -16,8 +16,9 @@ pip install kivy
 
 '''
 import kivy
-import kivy.uix.settings
 kivy.require('1.10.1')
+
+import kivy.uix.settings
 
 from TTWidgets import RootWidget
 
